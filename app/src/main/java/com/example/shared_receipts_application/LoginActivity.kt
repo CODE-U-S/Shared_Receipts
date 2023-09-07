@@ -19,34 +19,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        mFirebaseAuth = FirebaseAuth.getInstance()
 
-        mEtEmail = findViewById(R.id.et_email)
-        mEtPwd = findViewById(R.id.et_pwd)
-        mBtnRegister = findViewById(R.id.btn_register)
-        mBtnLogin = findViewById(R.id.btn_login)
-
-        mBtnLogin.setOnClickListener {
-            // 로그인 체크
-            val strEmail = mEtEmail.text.toString().trim()
-            val strPwd = mEtPwd.text.toString().trim()
-
-            mFirebaseAuth.signInWithEmailAndPassword(strEmail, strPwd)
-                .addOnCompleteListener(this@LoginActivity) { task ->
-                    if (task.isSuccessful) {
-                        // 로그인 성공
-                        val intent = Intent(this@LoginActivity, MainActivity::class.java)
-                        startActivity(intent)
-                        finish()
-                    } else {
-                        Toast.makeText(this@LoginActivity, "로그인 실패", Toast.LENGTH_SHORT).show()
-                    }
-                }
-        }
-
-        mBtnRegister.setOnClickListener {
-            val intent = Intent(this@LoginActivity, RegisterActivity::class.java)
-            startActivity(intent)
-        }
     }
+
 }
