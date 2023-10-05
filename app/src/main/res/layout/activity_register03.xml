@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register03Activity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="416dp"
+        android:layout_height="389dp"
+        android:layout_marginEnd="-10dp"
+        android:src="@drawable/register03_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/register03_sendbutton"
+        android:layout_width="114dp"
+        android:layout_height="47dp"
+        android:contentDescription="인증번호 전송버튼"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/register03_send"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <ImageButton
+        android:id="@+id/register03_loginbutton"
+        android:layout_width="374dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="완료"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/register03_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="18dp" />
+
+    <EditText
+        android:id="@+id/password_text"
+        android:layout_width="143dp"
+        android:layout_height="29dp"
+        android:background="@null"
+        android:hint="인증번호 입력"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <EditText
+        android:id="@+id/password_text2"
+        android:layout_width="221dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        android:hint="010-7415-9152"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="03:00"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
