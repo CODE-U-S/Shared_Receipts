@@ -12,9 +12,10 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/imageView1"
+            android:id="@+id/login_imageView1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="@string/content_description_login_background01"
             android:layout_marginTop="0dp"
             android:src="@drawable/background_login"
             android:scaleType="centerCrop" />
@@ -30,17 +31,20 @@
             app:layout_constraintEnd_toStartOf="@+id/imageView2"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/content_description_login_background02"/>
 
         <EditText
             android:id="@+id/id_text"
             android:layout_width="211dp"
-            android:layout_height="43dp"
+            android:layout_height="56dp"
             android:layout_marginStart="120dp"
             android:layout_marginTop="245dp"
             android:layout_marginBottom="435dp"
             android:background="@null"
-            android:hint="아이디"
+            android:hint="@string/hint_username"
+            android:autofillHints="username"
+            android:inputType="text"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -50,12 +54,14 @@
         <EditText
             android:id="@+id/password_text"
             android:layout_width="211dp"
-            android:layout_height="45dp"
+            android:layout_height="56dp"
             android:layout_marginStart="120dp"
             android:layout_marginTop="305dp"
             android:layout_marginBottom="375dp"
             android:background="@null"
-            android:hint="비밀번호"
+            android:hint="@string/hint_password"
+            android:autofillHints="username"
+            android:inputType="textPassword"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -67,7 +73,7 @@
             android:layout_width="298dp"
             android:layout_height="63dp"
             android:layout_gravity="center_horizontal"
-            android:contentDescription="로그인 버튼"
+            android:contentDescription="@string/content_description_login_button"
             android:padding="0dp"
             android:scaleType="centerCrop"
             android:src="@drawable/main_loginbutton"
@@ -78,7 +84,7 @@
             android:layout_width="298dp"
             android:layout_height="63dp"
             android:layout_gravity="center_horizontal"
-            android:contentDescription="회원가입 버튼"
+            android:contentDescription="@string/content_description_join_button"
             android:padding="0dp"
             android:scaleType="centerCrop"
             android:src="@drawable/main_joinbutton"
