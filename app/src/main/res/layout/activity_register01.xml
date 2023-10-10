@@ -1,41 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Register01Activity">
+    tools:context=".LoginActivity">
 
-    <ImageView
-        android:layout_width="481dp"
-        android:layout_height="525dp"
-        android:layout_marginTop="4dp"
-        android:src="@drawable/register01_main"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <ImageButton
-        android:id="@+id/register03_loginbutton"
-        android:layout_width="363dp"
-        android:layout_height="54dp"
-        android:layout_marginBottom="16dp"
-        android:contentDescription="다음"
-        android:padding="0dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/register01_next"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="24dp" />
+        <ImageView
+            android:id="@+id/re01_imageview1"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/register01_main"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
-        android:id="@+id/chack01"
-        android:layout_width="80dp"
-        android:layout_height="66dp"
-        android:contentDescription="체크"
-        android:padding="0dp"
-        android:src="@drawable/register01_check"
-        tools:layout_editor_absoluteX="278dp"
-        tools:layout_editor_absoluteY="221dp" />
+        <ImageButton
+            android:id="@+id/register03_loginbutton"
+            android:layout_width="363dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="다음"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/register01_next"
+            android:layout_marginTop="650dp" />
 
-    ㄴ
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <CheckBox
+            android:id="@+id/checkbox_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="200dp"
+            android:onClick="onCheckboxClicked" />
+
+        <CheckBox
+            android:id="@+id/checkbox_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="275dp"
+            android:onClick="onCheckboxClicked" />
+
+        <CheckBox
+            android:id="@+id/checkbox_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="350dp"
+            android:onClick="onCheckboxClicked" />
+
+        <CheckBox
+            android:id="@+id/checkbox_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="425dp"
+            android:onClick="onCheckboxClicked" />
+
+
+    </FrameLayout>
+
+</ScrollView>
