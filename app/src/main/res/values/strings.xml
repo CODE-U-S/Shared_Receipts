@@ -15,4 +15,10 @@
     <string name="login_text">로그인</string>
     <string name="register_text">회원가입</string>
     <string name="sign_up_completed">가입완료</string>
+    <string name="hint_username">아이디</string>
+    <string name="content_description_login_background01">로그인 화면 배경01</string>
+    <string name="content_description_login_background02">로그인 화면 배경02</string>
+    <string name="hint_password">비밀번호</string>
+    <string name="content_description_login_button">로그인 버튼</string>
+    <string name="content_description_join_button">회원가입 버튼</string>
 </resources>
