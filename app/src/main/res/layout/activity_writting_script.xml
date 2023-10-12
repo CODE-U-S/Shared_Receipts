@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="19dp"
+    android:layout_marginLeft="19dp"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="글쓰기"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_weight="0.1"/>
+    <android.widget.Button
+        android:layout_marginTop="22dp"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:text="0/10"
+        android:textColor="#80000000"
+        android:gravity="bottom|center"
+        android:background="@drawable/ic_img_camera"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제목"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="7dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="제목을 입력해주세요"
+        android:background="@drawable/edit_text_gray"
+        android:padding="13dp"
+        android:textSize="19dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="태그"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="6dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="세부사항"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="6dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:gravity="top"
+        android:hint="자세한 설명을 입력해주세요."
+        android:background="@drawable/edit_text_gray"
+        android:padding="10dp"
+        android:layout_marginBottom="117dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.2">
+        <android.widget.Button
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:text="임시저장"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textColor="#5EAB6E"
+            android:background="@drawable/setting_button"
+            android:layout_marginRight="7dp"/>
+        <android.widget.Button
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="23dp"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:text="다음"
+            android:background="@drawable/green_button"
+            />
+    </LinearLayout>
+
+</LinearLayout>

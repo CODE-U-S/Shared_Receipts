@@ -22,10 +22,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center">
-    <ImageButton
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:background="@drawable/proflie_img"/>
+        <ImageButton
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/proflie_img"/>
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.04"
+        android:layout_weight="0.05"
         android:paddingLeft="10dp"
         android:background="@drawable/edit_text_gray"
         android:hint="변경할 닉네임을 입력해주세요." />
@@ -61,14 +61,18 @@
     <View
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_weight="0.80"/>
+        android:layout_weight="0.856"/>
 
     <android.widget.Button
-
         android:layout_width="match_parent"
         android:layout_height="69dp"
         android:background="@drawable/green_button"
         android:text="확인"
         android:textSize="22dp"
         android:textColor="#fff" />
+    <android.widget.Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/navigationbar_mapage"/>
 </LinearLayout>
