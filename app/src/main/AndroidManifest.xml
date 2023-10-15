@@ -12,7 +12,10 @@
         android:theme="@style/Theme.SharedReceiptsApplication"
         tools:targetApi="31">
         <activity
-            android:name=".WrittingScriptActivity"
+            android:name=".WrittingScript2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".WrittingScript1Activity"
             android:exported="false" />
         <activity
             android:name=".MypageActivity"
