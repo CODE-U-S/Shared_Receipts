@@ -4,9 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="1"
-    android:layout_marginLeft="28dp"
-    android:layout_marginRight="28dp">
+    android:weightSum="1">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,10 +13,14 @@
         android:textSize="26dp"
         android:gravity="center"
         android:textColor="@color/black"
-        android:layout_weight="0.1"/>
-
+        android:layout_weight="0.3"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/drop_shadow"
+        android:layout_marginRight="-28dp"
+        android:layout_marginLeft="-28dp"/>
     <ImageView
-        android:layout_marginTop="42dp"
         android:layout_width="123dp"
         android:layout_height="128dp"
         android:layout_gravity="center"
@@ -32,42 +34,53 @@
         android:textSize="25dp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"/>
+
     <android.widget.Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="프로필 편집"
         android:textColor="#5EAB6E"
-        android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
         android:textSize="22dp"
         android:background="@drawable/setting_button"/>
     <TextView
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="나의 내역"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="20dp"
-        android:layout_weight="0.04"/>
+        android:layout_weight="0.04"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"/>
     <ImageButton
         android:layout_marginBottom="6dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/favorite"
-        android:layout_weight="0.02"/>
+        android:layout_weight="0.02"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"/>
     <ImageButton
         android:layout_marginTop="6dp"
         android:layout_marginBottom="6dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/writting"
-        android:layout_weight="0.02"/>
+        android:layout_weight="0.02"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"/>
     <View
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_weight="0.1"/>
+        android:layout_weight="0.1"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -75,17 +88,21 @@
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:layout_weight="0.04"/>
+        android:layout_weight="0.04"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"/>
 
     <ImageButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/question"
-        android:layout_weight="0.02"/>
+        android:layout_weight="0.02"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"/>
     <View
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_weight="0.66"
+        android:layout_weight="0.46"
         />
     <LinearLayout
         android:layout_width="wrap_content"
@@ -96,6 +113,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="로그아웃"
+            android:textSize="18dp"
             android:background="none"
             android:textColor="#60000000"/>
 
@@ -108,6 +126,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="회원탈퇴"
+            android:textSize="18dp"
             android:background="none"
             android:textColor="#60000000"/>
     </LinearLayout>
@@ -115,5 +134,7 @@
         android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/navigationbar_mapage"/>
+        android:background="@drawable/navigationbar_mapage"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"/>
 </LinearLayout>
