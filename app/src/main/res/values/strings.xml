@@ -10,15 +10,30 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
 
-    <string name="email_hint">이메일를 입력해주세요</string>
-    <string name="password_hint">비밀번호를 입력해주세요</string>
+    <string name="email_hint">이메일</string>
     <string name="login_text">로그인</string>
     <string name="register_text">회원가입</string>
     <string name="sign_up_completed">가입완료</string>
-    <string name="hint_username">아이디</string>
     <string name="content_description_login_background01">로그인 화면 배경01</string>
     <string name="content_description_login_background02">로그인 화면 배경02</string>
-    <string name="hint_password">비밀번호</string>
+    <string name="password">비밀번호</string>
     <string name="content_description_login_button">로그인 버튼</string>
     <string name="content_description_join_button">회원가입 버튼</string>
+    <string name="duplicate_id">*중복된 아이디입니다.</string>
+    <string name="passwords_do_not_match">*비밀번호가 일치하지 않습니다.</string>
+    <string name="before">이전</string>
+    <string name="next">다음</string>
+    <string name="name">닉네임</string>
+    <string name="id">아이디</string>
+    <string name="password_verification">비밀번호 확인</string>
+    <string name="hint_username">아이디를 입력해주세요</string>
+    <string name="hint_password">비밀번호를 입력해주세요</string>
+    <string name="send_authentication_number">인증번호 전송</string>
+    <string name="enter_authentication_number">인증번호 입력</string>
+    <string name="completion">완료</string>
+    <string name="phone_number">전화번호</string>
+    <string name="certification_completed">*인증이 완료되었습니다</string>
+    <string name="required_Items">*필수항목</string>
+    
+
 </resources>

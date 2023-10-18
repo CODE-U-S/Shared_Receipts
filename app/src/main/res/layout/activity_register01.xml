@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".Register01Activity">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -16,17 +16,14 @@
             android:layout_width="match_parent"
             android:layout_height="460dp"
             android:layout_marginTop="0dp"
-            android:src="@drawable/register01_main"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:src="@drawable/register01_main"/>
 
         <ImageButton
-            android:id="@+id/register03_loginbutton"
+            android:id="@+id/register01_loginbutton"
             android:layout_width="363dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
-            android:contentDescription="다음"
+            android:contentDescription="@string/next"
             android:padding="0dp"
             android:scaleType="centerCrop"
             android:src="@drawable/register01_next"
@@ -64,6 +61,25 @@
             android:layout_marginTop="425dp"
             android:onClick="onCheckboxClicked" />
 
+        <TextView
+            android:id="@+id/certification_completed01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/required_Items"
+            android:textColor="#FC2C2C"
+            android:textSize="13sp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="310dp" />
+
+        <TextView
+            android:id="@+id/certification_completed02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/required_Items"
+            android:textColor="#FC2C2C"
+            android:textSize="13sp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="385dp" />
 
     </FrameLayout>
 
