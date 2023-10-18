@@ -19,10 +19,65 @@
             android:exported="false" />
         <activity
             android:name=".MypageActivity"
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
             android:exported="true" />
+=======
+            android:exported="true">
+
+        </activity>
+>>>>>>> Stashed changes
+=======
+            android:exported="true">
+
+        </activity>
+>>>>>>> Stashed changes
+=======
+            android:exported="true">
+
+        </activity>
+>>>>>>> Stashed changes
+=======
+            android:exported="true">
+
+        </activity>
+>>>>>>> Stashed changes
+=======
+            android:exported="true">
+
+        </activity>
+>>>>>>> Stashed changes
         <activity
             android:name=".DropOutActivity"
             android:exported="true">
+        </activity>
+        <activity
+            android:name=".ProflieSettingActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Register01Activity"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".Register02Activity"
+            android:exported="true" >
+
+
+        </activity>
+        <activity
+            android:name=".Register03Activity"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,6 +85,11 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
             android:name=".ProflieSettingActivity"
             android:exported="true" />
         <activity
@@ -45,6 +105,16 @@
             android:name=".LoginActivity"
             android:exported="true" />
         <activity
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
             android:name=".MainActivity"
             android:exported="true" />
     </application>
