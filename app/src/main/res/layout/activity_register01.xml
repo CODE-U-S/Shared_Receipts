@@ -1,86 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Register01Activity">
+    android:orientation="vertical" >
 
-    <FrameLayout
+    <ImageView
+        android:id="@+id/re01_imageview1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="460dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/register01_main" />
 
-        <ImageView
-            android:id="@+id/re01_imageview1"
-            android:layout_width="match_parent"
-            android:layout_height="460dp"
-            android:layout_marginTop="0dp"
-            android:src="@drawable/register01_main"/>
+    <CheckBox
+        android:id="@+id/checkbox_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="200dp"
+        android:onClick="onCheckboxClicked" />
 
-        <ImageButton
-            android:id="@+id/register01_loginbutton"
-            android:layout_width="363dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:contentDescription="@string/next"
-            android:padding="0dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/register01_next"
-            android:layout_marginTop="650dp" />
+    <CheckBox
+        android:id="@+id/checkbox_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="275dp"
+        android:onClick="onCheckboxClicked" />
 
-        <CheckBox
-            android:id="@+id/checkbox_all"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="300dp"
-            android:layout_marginTop="200dp"
-            android:onClick="onCheckboxClicked" />
+    <CheckBox
+        android:id="@+id/checkbox_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="350dp"
+        android:onClick="onCheckboxClicked" />
 
-        <CheckBox
-            android:id="@+id/checkbox_01"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="300dp"
-            android:layout_marginTop="275dp"
-            android:onClick="onCheckboxClicked" />
+    <CheckBox
+        android:id="@+id/checkbox_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="425dp"
+        android:onClick="onCheckboxClicked" />
 
-        <CheckBox
-            android:id="@+id/checkbox_02"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="300dp"
-            android:layout_marginTop="350dp"
-            android:onClick="onCheckboxClicked" />
+    <TextView
+        android:id="@+id/certification_completed01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/required_Items"
+        android:textColor="#FC2C2C"
+        android:textSize="13sp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="310dp" />
 
-        <CheckBox
-            android:id="@+id/checkbox_03"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="300dp"
-            android:layout_marginTop="425dp"
-            android:onClick="onCheckboxClicked" />
+    <TextView
+        android:id="@+id/certification_completed02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/required_Items"
+        android:textColor="#FC2C2C"
+        android:textSize="13sp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="385dp" />
 
-        <TextView
-            android:id="@+id/certification_completed01"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/required_Items"
-            android:textColor="#FC2C2C"
-            android:textSize="13sp"
-            android:layout_marginStart="70dp"
-            android:layout_marginTop="310dp" />
-
-        <TextView
-            android:id="@+id/certification_completed02"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/required_Items"
-            android:textColor="#FC2C2C"
-            android:textSize="13sp"
-            android:layout_marginStart="70dp"
-            android:layout_marginTop="385dp" />
-
-    </FrameLayout>
-
-</ScrollView>
+    <ImageButton
+        android:id="@+id/register01_loginbutton"
+        android:layout_width="363dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/next"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/register01_next"
+        android:layout_marginBottom="50dp" />
+</RelativeLayout>
