@@ -114,7 +114,7 @@
             android:layout_height="wrap_content"
             android:text="로그아웃"
             android:textSize="18dp"
-            android:background="none"
+            android:background="#00000000"
             android:textColor="#60000000"/>
 
         <ImageButton
@@ -127,7 +127,7 @@
             android:layout_height="wrap_content"
             android:text="회원탈퇴"
             android:textSize="18dp"
-            android:background="none"
+            android:background="#00000000"
             android:textColor="#60000000"/>
     </LinearLayout>
     <android.widget.Button

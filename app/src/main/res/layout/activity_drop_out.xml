@@ -6,15 +6,15 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:text="탈퇴하기"
-                android:textSize="26dp"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:gravity="center"
-                android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="탈퇴하기"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_gravity="center"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="10dp"
@@ -105,6 +105,7 @@
         android:textSize="22dp"
         android:textColor="#fff" />
     <android.widget.Button
+        android:id="@+id/check_drop_out_btn"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
