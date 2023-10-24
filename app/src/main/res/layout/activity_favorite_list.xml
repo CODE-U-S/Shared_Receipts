@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="370dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:strokeColor="#CCCCCC">
+
+        <ImageView
+            android:id="@+id/favorite_image"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:id="@+id/favorite_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="10dp"
+            android:text="귤부자" />
+
+        <TextView
+            android:id="@+id/favorite_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="38dp"
+            android:text="떠나요~ 제주도~"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/favorite_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="75dp"
+            android:text="2023.08.23 ~ 09.09" />
+
+        <TextView
+            android:id="@+id/favorite_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="115dp"
+            android:text="30,000원"
+            android:textColor="#A1A1A1"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/favorite_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="115dp"
+            android:text="3/4명" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
