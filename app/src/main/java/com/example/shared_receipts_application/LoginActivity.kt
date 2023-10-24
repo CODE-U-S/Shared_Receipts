@@ -3,23 +3,20 @@ package com.example.shared_receipts_application
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.Toast
-import com.google.firebase.auth.FirebaseAuth
+import android.widget.ImageButton
 
 class LoginActivity : AppCompatActivity() {
-    private lateinit var mFirebaseAuth: FirebaseAuth // 파이어 베이스 인증
-    private lateinit var mEtEmail: EditText
-    private lateinit var mEtPwd: EditText
-    private lateinit var mBtnRegister: Button
-    private lateinit var mBtnLogin: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-
+        // LoginAvtivity를 클릭하면 Register01Activity로 이동
+        val loginButton = findViewById<ImageButton>(R.id.main_joinbutton)
+        loginButton.setOnClickListener {
+            val intent = Intent(this, Register01Activity::class.java)
+            startActivity(intent)
+        }
     }
 
 }
