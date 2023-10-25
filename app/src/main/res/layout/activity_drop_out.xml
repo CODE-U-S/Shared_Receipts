@@ -98,6 +98,7 @@
             android:textColor="#000"/>
     </LinearLayout>
     <android.widget.Button
+        android:id="@+id/dropuserout"
         android:layout_width="match_parent"
         android:layout_height="47dp"
         android:background="@drawable/green_button"
