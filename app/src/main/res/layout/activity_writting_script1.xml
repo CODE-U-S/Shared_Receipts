@@ -124,6 +124,7 @@
             android:layout_marginRight="7dp"
             android:layout_marginLeft="19dp"/>
         <android.widget.Button
+            android:id="@+id/writting1_nextbutton"
             android:textStyle="bold"
             android:textColor="#fff"
             android:textSize="23dp"
