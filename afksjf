@@ -1,0 +1,171 @@
+[33mcommit 7f01bca8aeba4a67704b3229cf5a9e4ebd8f827e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31mupstream/main[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 136fc0b 974ccfc
+Author: sunhee kim <106311884+iris-starry@users.noreply.github.com>
+Date:   Wed Oct 18 09:36:08 2023 +0900
+
+    Merge pull request #10 from iris-starry/main
+    
+    :lipstick: 회원가입 UI 완성
+
+[33mcommit 974ccfc91f01f849156ecc126c6cc59e5b72abbd[m
+Author: iris-starry <iris_starry_@naver.com>
+Date:   Wed Oct 18 09:34:13 2023 +0900
+
+    :lipstick: 회원가입 UI 완성
+
+[33mcommit 136fc0b77b884bb59511d231a020cd52bb671feb[m
+Merge: ed39c2e bb2e15d
+Author: Jinseon <128007743+dlwlstjs@users.noreply.github.com>
+Date:   Sun Oct 15 12:21:20 2023 +0900
+
+    Merge pull request #9 from dlwlstjs/main
+    
+    writting2
+
+[33mcommit bb2e15d80563d003085b2bd1910250e27985cfc8[m
+Merge: 5aaa68d ed39c2e
+Author: Jinseon <128007743+dlwlstjs@users.noreply.github.com>
+Date:   Sun Oct 15 12:17:55 2023 +0900
+
+    Merge branch 'main' of https://github.com/dlwlstjs/Shared_Receipts
+
+[33mcommit 5aaa68d57a99ab54516be003075cb88df0fbad20[m
+Author: Jinseon <128007743+dlwlstjs@users.noreply.github.com>
+Date:   Sun Oct 15 12:17:48 2023 +0900
+
+    writting2
+
+[33mcommit ed39c2e6dd62fa9522f161f255f8e19cecbb0572[m
+Merge: 2fcdc93 789139f
+Author: Jinseon <128007743+dlwlstjs@users.noreply.github.com>
+Date:   Thu Oct 12 19:01:56 2023 +0900
+
+    Merge pull request #8 from dlwlstjs/main
+    
+    :sparkles: writing
+
+[33mcommit 789139f443a160532c658ddfd6a83a46f590c21a[m
+Author: Jinseon <128007743+dlwlstjs@users.noreply.github.com>
+Date:   Thu Oct 12 18:59:03 2023 +0900
+
+    :sparkles: writing
+
+[33mcommit 2fcdc938963e4bf4032c03ed19e06f2c82bcf806[m
+Merge: 0d900e1 71bc3d9
+Author: Jinseon <128007743+dlwlstjs@users.noreply.github.com>
+Date:   Thu Oct 12 08:33:54 2023 +0900
+
+    Merge pull request #7 from dlwlstjs/main
+    
+    :bug:오류수정   :sparkles: 마이페이지 생성
+
+[33mcommit 71bc3d98224c94172a59925e99575a73111722d5[m
+Author: Jinseon <128007743+dlwlstjs@users.noreply.github.com>
+Date:   Wed Oct 11 22:57:52 2023 +0900
+
+    :bug:오류수정
+
+[33mcommit 0d900e10b19358f0e5a9fe0a32d89f6622072283[m
+Merge: 0fb5360 4141157
+Author: Jinseon <128007743+dlwlstjs@users.noreply.github.com>
+Date:   Tue Oct 10 20:12:51 2023 +0900
+
+    Merge pull request #6 from dlwlstjs/main
+    
+    proflie_setting and drop_out
+
+[33mcommit 4141157f02de3928be39265e5678065f96ffeef7[m
+Author: Jinseon <128007743+dlwlstjs@users.noreply.github.com>
+Date:   Tue Oct 10 20:10:44 2023 +0900
+
+    proflie_setting and drop_out
+
+[33mcommit 0fb5360e18626a7b9a1cf6b4bb0b680d138d3842[m
+Merge: dac6782 ac2279f
+Author: sunhee kim <106311884+iris-starry@users.noreply.github.com>
+Date:   Tue Oct 10 20:05:17 2023 +0900
+
+    Merge pull request #5 from iris-starry/main
+    
+    new
+
+[33mcommit ac2279f9000ea67add45286e55c9801d856e03b7[m
+Author: sunhee kim <iris_starry_@naver.com>
+Date:   Tue Oct 10 19:19:21 2023 +0900
+
+    EditText 오류 수정
+
+[33mcommit 5ae743d2fa0191bdac95c1db69d5d16d7a10e038[m
+Author: sunhee kim <iris_starry_@naver.com>
+Date:   Tue Oct 10 18:57:50 2023 +0900
+
+    Register01Activity checkbox 코드 작성
+
+[33mcommit 7890051d82063a6471096e57045d6a7c6d278640[m
+Author: sunhee kim <iris_starry_@naver.com>
+Date:   Tue Oct 10 18:57:20 2023 +0900
+
+    💄 Register01Activity UI 완성
+
+[33mcommit dac67829769dfa9efedd9faf9432cc991fa4d254[m
+Merge: 0e777ed 8492be7
+Author: sunhee kim <106311884+iris-starry@users.noreply.github.com>
+Date:   Thu Oct 5 19:46:02 2023 +0900
+
+    Merge pull request #4 from iris-starry/main
+    
+    :lipstick: login UI 완성
+
+[33mcommit 8492be71add276a39600d669a7a2c4e3fc23be31[m
+Author: sunhee kim <iris_starry_@naver.com>
+Date:   Thu Oct 5 19:40:20 2023 +0900
+
+    :lipstick: login UI 완성
+
+[33mcommit 0e777ed4a9ae0888e28c3aad3b5300d8ab5e5d8f[m
+Merge: a313d05 ad7e5c4
+Author: sunhee kim <106311884+iris-starry@users.noreply.github.com>
+Date:   Thu Sep 7 19:53:06 2023 +0900
+
+    Merge pull request #3 from iris-starry/main
+    
+    💄 login UI
+
+[33mcommit ad7e5c4d89190e85bb48af7d127437e5aa8be506[m
+Author: sunhee kim <iris_starry_@naver.com>
+Date:   Thu Sep 7 19:51:45 2023 +0900
+
+    💄 login UI
+
+[33mcommit a313d055a1891d1594d84ef83e64c8a1ed9864bd[m
+Merge: ca6572c 9b1d773
+Author: sunhee kim <106311884+iris-starry@users.noreply.github.com>
+Date:   Fri Aug 25 15:32:51 2023 +0900
+
+    Merge pull request #2 from iris-starry/main
+    
+    로그인, 회원가입 기능 구현
+
+[33mcommit 9b1d7734cdcc4f5305904c5888d25c3989d512c5[m
+Author: sunhee kim <iris_starry_@naver.com>
+Date:   Fri Aug 25 15:31:20 2023 +0900
+
+    ✨ 로그인, 회원가입 기능 구현
+
+[33mcommit b12fde5b9833ae2633129cb99b5b6cf7207d3f13[m
+Author: sunhee kim <iris_starry_@naver.com>
+Date:   Wed Aug 23 19:45:49 2023 +0900
+
+    :arrow_up: androidx.core 버전 1.10.1로 업데이트
+
+[33mcommit 843d7eefd3d65243886196fe08c14b1bf860e0ac[m
+Author: sunhee kim <iris_starry_@naver.com>
+Date:   Wed Aug 23 19:20:26 2023 +0900
+
+    ✨Firebase 연동 완료
+
+[33mcommit ca6572cb820419a98580343f75f9f4aad3aac238[m
+Author: MsEmily1020 <peace10200khs@gmail.com>
+Date:   Tue Aug 8 19:06:10 2023 +0900
+
+    🎉 프로젝트 초기 셋팅
