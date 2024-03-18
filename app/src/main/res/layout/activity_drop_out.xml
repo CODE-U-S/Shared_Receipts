@@ -10,15 +10,16 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:text="탈퇴하기"
-        android:textSize="26dp"
+        android:textSize="18dp"
         android:textStyle="bold"
         android:textColor="#000"
         android:gravity="center"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
     <View
         android:layout_width="match_parent"
-        android:layout_height="10dp"
-        android:background="@drawable/drop_shadow" />
+        android:layout_height="5dp"
+        android:background="@drawable/drop_shadow"/>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,43 +29,64 @@
     <TextView
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:text="주의해주세요"
-        android:textSize="23dp"
+        android:textSize="20dp"
         android:textStyle="bold"
+        android:gravity="center"
         android:textColor="#000"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="탈퇴하기 전 아래 내용을 꼭 확인해주세요"
         android:textSize="14dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="• 내 프로필, 계정 정보와 그 외 사용자가 설정한 모든 정보가 사라지고 복구가 불가능합니다."
-        android:textColor="#000"
+        android:text="내 프로필, 계정 정보와 그 외 사용자가 설정한 모든 정보가 사라지고 복구가 불가능합니다."
+        android:padding="8dp"
         android:layout_marginTop="28dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"/>
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/exit_text"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="• 좋아요 내역, 게시글, 주문 내역을 포함한 정보가 삭제되어 재가입해도 복구되지 않습니다."
-        android:textColor="#000"
-        android:layout_marginTop="24dp"
+        android:text="찜 내역, 게시글, 주문 내역을 포함한 정보가 삭제되며 재가입해도 복구되지 않습니다."
+        android:padding="8dp"
+        android:layout_marginTop="12dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginBottom="66dp"
+        android:layout_marginBottom="33dp"
+        android:textStyle="bold"
+        android:background="@drawable/exit_text"
         />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/gray_box"
+        android:layout_marginBottom="33dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="28dp"
+        android:layout_marginLeft="28dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="비밀번호 입력"
+        android:text="비밀번호"
         android:textStyle="bold"
-        android:textSize="20dp"
+        android:textSize="16dp"
         android:textColor="#000"
         android:layout_marginBottom="8dp"
         />
@@ -74,7 +96,8 @@
         android:background="@drawable/edit_text_gray"
         android:paddingLeft="10dp"
         android:hint="현재 비밀번호를 입력하세요"
-        android:padding="15dp"/>
+        android:padding="15dp"
+        android:textColorHint="#C6C6C6"/>
     <View
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -88,7 +111,8 @@
             android:id="@+id/check_drop_out"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="true"/>
+            android:checked="true"
+            />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -100,16 +124,16 @@
     <android.widget.Button
         android:id="@+id/dropuserout"
         android:layout_width="match_parent"
-        android:layout_height="47dp"
-        android:background="@drawable/green_button"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_pink_radius"
         android:text="탈퇴하기"
-        android:textSize="22dp"
+        android:textSize="16dp"
         android:textColor="#fff" />
-    <android.widget.Button
-        android:id="@+id/check_drop_out_btn"
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/navigationbar_mapage"/>
+        <android.widget.Button
+            android:id="@+id/check_drop_out_btn"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/navigationbar_mapage"/>
     </LinearLayout>
 </LinearLayout>
