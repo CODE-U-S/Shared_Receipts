@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="40dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="로그아웃"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/gray_high"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="로그아웃 하시겠습니까?"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:padding="10dp"
+        android:background="@drawable/gray_high">
+        <android.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="취소"
+            android:textSize="15sp"
+            android:textColor="#28AE4E"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:layout_margin="3dp"
+            android:background="@drawable/border_green_radius"
+            android:onClick="mOnClose"/>
+        <android.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로그아웃"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_weight="0.5"
+            android:layout_margin="3dp"
+            android:background="@drawable/green_button"/>
+    </LinearLayout>
+</LinearLayout>

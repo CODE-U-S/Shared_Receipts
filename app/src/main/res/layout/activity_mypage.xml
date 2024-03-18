@@ -14,7 +14,8 @@
         android:gravity="center"
         android:textColor="@color/black"
         android:layout_gravity="center"
-        android:layout_weight="0.1"/>
+        android:layout_weight="0.1"
+        android:padding="10dp"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="10dp"
@@ -22,17 +23,17 @@
         android:layout_marginRight="-28dp"
         android:layout_marginLeft="-28dp"/>
     <ImageView
-        android:layout_width="123dp"
-        android:layout_height="128dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:background="@drawable/proflie_img"/>
     <TextView
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="14dp"
         android:layout_marginBottom="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="카드값줘체리"
-        android:textSize="25dp"
+        android:text="사용자"
+        android:textSize="18dp"
         android:textStyle="bold"
         android:textColor="@color/black"
         android:gravity="center"
@@ -41,12 +42,12 @@
 
     <android.widget.Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="35dp"
         android:text="프로필 편집"
-        android:textColor="#5EAB6E"
-        android:layout_marginLeft="100dp"
-        android:layout_marginRight="100dp"
-        android:textSize="22dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:textSize="16dp"
         android:background="@drawable/setting_button"/>
     <TextView
         android:layout_marginTop="16dp"
@@ -55,89 +56,129 @@
         android:text="나의 내역"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:textSize="20dp"
+        android:textSize="16dp"
         android:layout_weight="0.04"
-        android:layout_marginLeft="28dp"
-        android:layout_marginRight="28dp"/>
-    <ImageButton
-        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"/>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/favorite"
-        android:layout_weight="0.02"
-        android:layout_marginLeft="28dp"
-        android:layout_marginRight="28dp"/>
-    <ImageButton
-        android:layout_marginTop="6dp"
-        android:layout_marginBottom="6dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/writting"
-        android:layout_weight="0.02"
-        android:layout_marginLeft="28dp"
-        android:layout_marginRight="28dp"/>
-    <View
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_weight="0.1"
-        android:layout_marginLeft="28dp"
-        android:layout_marginRight="28dp"/>
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/shadow_bottom"
+        >
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="찜 목록"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:gravity="left|center"
+            android:paddingStart="10dp"
+            android:drawablePadding="5dp"
+            android:paddingEnd="10dp"
+            android:drawableStart="@drawable/icon_heart"
+            android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+            android:background="@drawable/gray_high"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="글 목록"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:gravity="left|center"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/icon_receipt"
+            android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+            android:background="@color/white"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="주문 내역"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:gravity="left|center"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/icon_order"
+            android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+            android:background="@drawable/gray_lower"/>
+    </LinearLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="기타"
-        android:textSize="20dp"
-        android:textStyle="bold"
+        android:text="주문"
         android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16dp"
         android:layout_weight="0.04"
-        android:layout_marginLeft="28dp"
-        android:layout_marginRight="28dp"/>
-
-    <ImageButton
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"/>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/question"
-        android:layout_weight="0.02"
-        android:layout_marginLeft="28dp"
-        android:layout_marginRight="28dp"/>
-    <View
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_weight="0.6"
-        />
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center">
+        android:orientation="vertical"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:elevation="5dp"
+        android:background="@drawable/shadow_bottom"
+        >
         <android.widget.Button
-            android:id="@+id/mypagelogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="문의하기"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:gravity="left|center"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/icon_comment"
+            android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+            android:background="@drawable/gray_high"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <android.widget.Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="로그아웃"
-            android:textSize="18dp"
-            android:background="#00000000"
-            android:textColor="#60000000"/>
-
-        <ImageButton
-            android:layout_width="10dp"
-            android:layout_height="match_parent"
-            android:layout_margin="5dp"
-            />
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:gravity="left|center"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/icon_exit"
+            android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+            android:background="@color/white"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
         <android.widget.Button
-            android:id="@+id/mypageuserout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="회원탈퇴"
-            android:textSize="18dp"
-            android:background="#00000000"
-            android:textColor="#60000000"/>
+            android:text="회원 탈퇴"
+            android:textStyle="bold"
+            android:textColor="#FF8282"
+            android:padding="10dp"
+            android:gravity="start|center"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/icon_x"
+            android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+            android:background="@drawable/gray_lower"/>
     </LinearLayout>
-    <android.widget.Button
-        android:layout_marginTop="15dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/navigationbar_mapage"
-        android:layout_marginLeft="28dp"
-        android:layout_marginRight="28dp"/>
 </LinearLayout>

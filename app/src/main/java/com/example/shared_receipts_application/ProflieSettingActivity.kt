@@ -11,11 +11,6 @@ class ProflieSettingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_proflie_setting)
 
-        val settingButton = findViewById<Button>(R.id.settingcheckbutton)
-        settingButton.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
-        }
 
     }
 }
