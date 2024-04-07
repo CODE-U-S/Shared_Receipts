@@ -122,7 +122,7 @@
             android:textColor="#000"/>
     </LinearLayout>
     <android.widget.Button
-        android:id="@+id/dropuserout"
+        android:id="@+id/mypagelogout"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:background="@drawable/bg_pink_radius"
