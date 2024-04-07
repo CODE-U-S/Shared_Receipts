@@ -18,10 +18,6 @@
             android:name=".WrittingScript1Activity"
             android:exported="false" />
         <activity
-            android:name=".MypageActivity"
-            android:exported="true" />
-
-        <activity
             android:name=".DropOutActivity"
             android:exported="true">
             <intent-filter>
