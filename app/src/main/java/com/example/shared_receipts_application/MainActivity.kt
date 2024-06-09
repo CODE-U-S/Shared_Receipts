@@ -1,15 +1,16 @@
 package com.example.shared_receipts_application
 
-import android.R.attr.spacing
-import android.graphics.Rect
 import android.os.Bundle
-import android.util.Log
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.NavigationUI
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.shared_receipts_application.databinding.ActivityMainBinding
+import com.example.shared_receipts_application.databinding.FragmentOrderBinding
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var mBinding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

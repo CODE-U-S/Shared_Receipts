@@ -12,13 +12,7 @@
         android:theme="@style/Theme.SharedReceiptsApplication"
         tools:targetApi="31">
         <activity
-            android:name=".WrittingScript2Activity"
-            android:exported="false" />
-        <activity
-            android:name=".WrittingScript1Activity"
-            android:exported="false" />
-        <activity
-            android:name=".DropOutActivity"
+            android:name=".NavitaionActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,31 +21,40 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ProflieSettingActivity"
+            android:name=".ToggleBtActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FavoriteActivity"
             android:exported="true">
-
         </activity>
+        <activity
+            android:name=".WrittingScript2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".WrittingScript1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DropOutActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".ProflieSettingActivity"
+            android:exported="true" />
         <activity
             android:name=".Register01Activity"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Register02Activity"
-            android:exported="true" >
-
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Register03Activity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>
