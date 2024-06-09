@@ -13,19 +13,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var mBinding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        mBinding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(mBinding.root)
-
-        //네비게인션을 담은 호스트
-        val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host) as NavHostFragment
-
-        //네비게이션 컨트롤러
-        val navController = navHostFragment.navController
-
-        //바텀 네비게이션 뷰와 네비게이션을 묶어준다.
-        NavigationUI.setupWithNavController(mBinding.bottomNav, navController)
-
-
+        setContentView(R.layout.activity_main)
 
         val mainList = mutableListOf<Main>()
         val img = arrayOf(R.drawable.background_login, R.drawable.background_login, R.drawable.background_login)

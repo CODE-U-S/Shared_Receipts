@@ -9,12 +9,12 @@
         android:id="@+id/homeFragment"
         android:name="com.example.shared_receipts_application.fragments.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home"/>
     <fragment
         android:id="@+id/heartFragment"
         android:name="com.example.shared_receipts_application.fragments.HeartFragment"
         android:label="fragment_heart"
-        tools:layout="@layout/fragment_heart" />
+        tools:layout="@layout/fragment_heart"/>
     <fragment
         android:id="@+id/mypageFragment"
         android:name="com.example.shared_receipts_application.fragments.MypageFragment"
