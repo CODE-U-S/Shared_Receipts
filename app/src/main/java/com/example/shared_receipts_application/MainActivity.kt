@@ -1,18 +1,31 @@
 package com.example.shared_receipts_application
 
-import android.R.attr.spacing
-import android.graphics.Rect
 import android.os.Bundle
-import android.util.Log
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.NavigationUI
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.shared_receipts_application.databinding.ActivityMainBinding
+import com.example.shared_receipts_application.databinding.FragmentOrderBinding
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var mBinding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        mBinding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(mBinding.root)
+
+        //네비게인션을 담은 호스트
+        val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host) as NavHostFragment
+
+        //네비게이션 컨트롤러
+        val navController = navHostFragment.navController
+
+        //바텀 네비게이션 뷰와 네비게이션을 묶어준다.
+        NavigationUI.setupWithNavController(mBinding.bottomNav, navController)
+
+
 
         val mainList = mutableListOf<Main>()
         val img = arrayOf(R.drawable.background_login, R.drawable.background_login, R.drawable.background_login)
